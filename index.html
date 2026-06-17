@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Eshwar Kadari – B.Tech ECE Student, Python Developer, Network Automation Engineer. Portfolio of projects in networking, IoT, drone systems, and ML." />
+  <meta name="keywords" content="Eshwar Kadari, Python Developer, Network Automation, CCNA, ECE, Software Engineer, Portfolio" />
+  <meta name="author" content="Eshwar Kadari" />
+  <meta property="og:title" content="Eshwar Kadari | Python & Network Automation Engineer" />
+  <meta property="og:description" content="Portfolio of Eshwar Kadari – ECE student building Python automation, networking, and IoT solutions." />
+  <title>Eshwar Kadari | Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">&lt;EK /&gt;</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Hire Me</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <canvas id="network-canvas"></canvas>
+    <div class="hero-content">
+      <p class="hero-eyebrow">// Hello, World!</p>
+      <h1 class="hero-name">Eshwar Kadari</h1>
+      <div class="hero-role">
+        <span class="role-prefix">$ </span>
+        <span id="typed-text"></span>
+        <span class="cursor">▋</span>
+      </div>
+      <p class="hero-desc">
+        Building reliable Python automation, networked systems, and real-world
+        engineering solutions — from CCNA labs to drone infrastructure monitoring.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="https://github.com/Eshwarkadari" target="_blank" rel="noopener" class="btn btn-outline">GitHub</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">4+</span><span class="stat-label">Cisco Certs</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">60+</span><span class="stat-label">LeetCode</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">🏆</span><span class="stat-label">Hackathon Winner</span></div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <p class="section-eyebrow">// 01 — About</p>
+      <h2 class="section-title">Who I Am</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a final-year <strong>B.Tech Electronics and Communication Engineering</strong>
+            student at CMR College of Engineering and Technology, Hyderabad, graduating May 2027.
+          </p>
+          <p>
+            I'm passionate about <strong>Software Development, Computer Networks, and Network Automation</strong>.
+            I enjoy building Python-based automation solutions that solve real engineering problems —
+            from monitoring network devices to analyzing drone imagery.
+          </p>
+          <p>
+            Certified by <strong>Cisco Networking Academy</strong> in CCNA, Cybersecurity, IoT, and Python.
+            National Hackathon Winner. Always learning, always shipping.
+          </p>
+          <div class="about-tags">
+            <span class="tag">Python Developer</span>
+            <span class="tag">Network Automation</span>
+            <span class="tag">CCNA Certified</span>
+            <span class="tag">IoT Engineer</span>
+            <span class="tag">Open Source</span>
+          </div>
+        </div>
+        <div class="about-card">
+          <div class="terminal">
+            <div class="terminal-header">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="terminal-title">eshwar@portfolio:~</span>
+            </div>
+            <div class="terminal-body">
+              <p><span class="t-prompt">$ </span><span class="t-cmd">whoami</span></p>
+              <p class="t-out">eshwar_kadari</p>
+              <p><span class="t-prompt">$ </span><span class="t-cmd">cat status.txt</span></p>
+              <p class="t-out">🎓 Final Year B.Tech ECE</p>
+              <p class="t-out">📍 Hyderabad, India</p>
+              <p class="t-out">🔍 Seeking Internships 2026</p>
+              <p class="t-out">🏆 National Hackathon Winner</p>
+              <p><span class="t-prompt">$ </span><span class="t-cmd">python --version</span></p>
+              <p class="t-out">Python 3.11.0 ✓</p>
+              <p><span class="t-prompt">$ </span><span class="t-cmd">ping cisco.com</span></p>
+              <p class="t-out">CCNA Certified ✓</p>
+              <p class="t-blink"><span class="t-prompt">$ </span><span class="cursor-term">▋</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <p class="section-eyebrow">// 02 — Skills</p>
+      <h2 class="section-title">Technical Arsenal</h2>
+      <div class="skills-categories">
+
+        <div class="skill-category" data-aos>
+          <h3 class="skill-cat-title"><span class="cat-icon">⚡</span> Languages</h3>
+          <div class="skill-pills">
+            <span class="skill-pill highlight">Python</span>
+            <span class="skill-pill">C / C++</span>
+            <span class="skill-pill">SQL</span>
+            <span class="skill-pill">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="skill-category" data-aos>
+          <h3 class="skill-cat-title"><span class="cat-icon">🌐</span> Networking</h3>
+          <div class="skill-pills">
+            <span class="skill-pill highlight">CCNA</span>
+            <span class="skill-pill">TCP/IP</span>
+            <span class="skill-pill">Network Automation</span>
+            <span class="skill-pill">VLANs / OSPF</span>
+            <span class="skill-pill">ACLs</span>
+            <span class="skill-pill">Cisco Packet Tracer</span>
+          </div>
+        </div>
+
+        <div class="skill-category" data-aos>
+          <h3 class="skill-cat-title"><span class="cat-icon">🧠</span> CS Fundamentals</h3>
+          <div class="skill-pills">
+            <span class="skill-pill highlight">Data Structures & Algorithms</span>
+            <span class="skill-pill">Operating Systems</span>
+            <span class="skill-pill">Multithreading</span>
+            <span class="skill-pill">Concurrency</span>
+            <span class="skill-pill">System Design</span>
+          </div>
+        </div>
+
+        <div class="skill-category" data-aos>
+          <h3 class="skill-cat-title"><span class="cat-icon">🔧</span> Tools & Platforms</h3>
+          <div class="skill-pills">
+            <span class="skill-pill highlight">Git / GitHub</span>
+            <span class="skill-pill">Linux</span>
+            <span class="skill-pill">REST APIs</span>
+            <span class="skill-pill">Raspberry Pi</span>
+            <span class="skill-pill">Power BI</span>
+          </div>
+        </div>
+
+        <div class="skill-category" data-aos>
+          <h3 class="skill-cat-title"><span class="cat-icon">🤖</span> AI / ML</h3>
+          <div class="skill-pills">
+            <span class="skill-pill">Machine Learning</span>
+            <span class="skill-pill">Scikit-learn</span>
+            <span class="skill-pill">Pandas</span>
+            <span class="skill-pill">OpenCV</span>
+          </div>
+        </div>
+
+        <div class="skill-category" data-aos>
+          <h3 class="skill-cat-title"><span class="cat-icon">🔒</span> Security</h3>
+          <div class="skill-pills">
+            <span class="skill-pill">Cybersecurity Essentials</span>
+            <span class="skill-pill">Firewall / ACLs</span>
+            <span class="skill-pill">VPN Concepts</span>
+            <span class="skill-pill">Threat Detection</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <p class="section-eyebrow">// 03 — Projects</p>
+      <h2 class="section-title">What I've Built</h2>
+      <div class="projects-grid">
+
+        <div class="project-card featured" data-aos>
+          <div class="project-card-inner">
+            <div class="project-meta">
+              <span class="project-badge">Featured</span>
+              <div class="project-links">
+                <a href="https://github.com/Eshwarkadari/python-network-automation" target="_blank" rel="noopener" class="icon-link" title="GitHub">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Python Network Automation</h3>
+            <p class="project-desc">
+              Modular Python application for network device monitoring and automation — built with OOP principles, REST APIs, TCP sockets, structured logging, and comprehensive unit testing.
+            </p>
+            <div class="project-features">
+              <span>Device Monitoring</span>
+              <span>REST API Integration</span>
+              <span>TCP Sockets</span>
+              <span>Unit Testing</span>
+              <span>Logging System</span>
+            </div>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">REST APIs</span>
+              <span class="tech-tag">OOP</span>
+              <span class="tech-tag">Networking</span>
+              <span class="tech-tag">Linux</span>
+            </div>
+            <a href="https://github.com/Eshwarkadari/python-network-automation" target="_blank" rel="noopener" class="btn btn-sm btn-primary">View on GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos>
+          <div class="project-card-inner">
+            <div class="project-meta">
+              <span class="project-badge badge-blue">Hardware + Software</span>
+              <div class="project-links">
+                <a href="https://github.com/Eshwarkadari" target="_blank" rel="noopener" class="icon-link" title="GitHub">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">Autonomous Drone Infrastructure Monitoring</h3>
+            <p class="project-desc">
+              Drone-based autonomous monitoring system using Raspberry Pi 3B+ and Pixhawk Flight Controller to capture and analyze infrastructure images with OpenCV.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Raspberry Pi</span>
+              <span class="tech-tag">Pixhawk</span>
+              <span class="tech-tag">Flask</span>
+              <span class="tech-tag">OpenCV</span>
+            </div>
+            <a href="https://github.com/Eshwarkadari" target="_blank" rel="noopener" class="btn btn-sm btn-outline">View on GitHub →</a>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos>
+          <div class="project-card-inner">
+            <div class="project-meta">
+              <span class="project-badge badge-green">Cisco</span>
+              <div class="project-links">
+                <a href="https://github.com/Eshwarkadari" target="_blank" rel="noopener" class="icon-link" title="GitHub">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-title">CCNA Networking Labs</h3>
+            <p class="project-desc">
+              Comprehensive networking solutions in Cisco Packet Tracer — VLANs, OSPF, ACLs, Inter-VLAN Routing, subnetting, and end-to-end network troubleshooting.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Cisco Packet Tracer</span>
+              <span class="tech-tag">VLANs</span>
+              <span class="tech-tag">OSPF</span>
+              <span class="tech-tag">ACLs</span>
+              <span class="tech-tag">TCP/IP</span>
+            </div>
+            <a href="https://github.com/Eshwarkadari" target="_blank" rel="noopener" class="btn btn-sm btn-outline">View on GitHub →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <p class="section-eyebrow">// 04 — Education</p>
+      <h2 class="section-title">Academic Background</h2>
+      <div class="timeline">
+
+        <div class="timeline-item" data-aos>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>B.Tech — Electronics and Communication Engineering</h3>
+              <span class="timeline-date">Aug 2023 – May 2027</span>
+            </div>
+            <p class="timeline-org">CMR College of Engineering and Technology — JNTU Hyderabad</p>
+            <p class="timeline-detail">CGPA: <strong>7.5</strong></p>
+            <p class="timeline-detail">Relevant: Data Structures, Computer Networks, OS, Embedded Systems, C Programming</p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Intermediate — MPC</h3>
+              <span class="timeline-date">2021 – 2023</span>
+            </div>
+            <p class="timeline-org">SR Junior College, Karimnagar</p>
+            <p class="timeline-detail">Percentage: <strong>95.6%</strong></p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos>
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Secondary School Certificate (SSC)</h3>
+              <span class="timeline-date">2021</span>
+            </div>
+            <p class="timeline-org">Ratnam Global High School, Karimnagar</p>
+            <p class="timeline-detail">GPA: <strong>10.0 / 10.0</strong></p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Certifications -->
+      <div class="certs-section">
+        <h3 class="certs-title">Certifications</h3>
+        <div class="certs-grid">
+          <div class="cert-card" data-aos>
+            <div class="cert-icon">🔵</div>
+            <p class="cert-name">CCNA: Introduction to Networks</p>
+            <p class="cert-org">Cisco Networking Academy</p>
+          </div>
+          <div class="cert-card" data-aos>
+            <div class="cert-icon">🔵</div>
+            <p class="cert-name">Cybersecurity Essentials</p>
+            <p class="cert-org">Cisco Networking Academy</p>
+          </div>
+          <div class="cert-card" data-aos>
+            <div class="cert-icon">🔵</div>
+            <p class="cert-name">IoT Fundamentals</p>
+            <p class="cert-org">Cisco Networking Academy</p>
+          </div>
+          <div class="cert-card" data-aos>
+            <div class="cert-icon">🔵</div>
+            <p class="cert-name">Python Programming</p>
+            <p class="cert-org">Cisco Networking Academy</p>
+          </div>
+          <div class="cert-card" data-aos>
+            <div class="cert-icon">📊</div>
+            <p class="cert-name">Data Science for Beginners</p>
+            <p class="cert-org">Board Infinity</p>
+          </div>
+          <div class="cert-card" data-aos>
+            <div class="cert-icon">⚙️</div>
+            <p class="cert-name">FPGA Design</p>
+            <p class="cert-org">NUAT Labs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements" class="section">
+    <div class="container">
+      <p class="section-eyebrow">// 05 — Achievements</p>
+      <h2 class="section-title">Milestones</h2>
+      <div class="achievements-grid">
+        <div class="achievement-card" data-aos>
+          <div class="ach-icon">🏆</div>
+          <h3>National Hackathon Winner</h3>
+          <p>Led a team of 4 to win a 24-hour national-level hackathon at MIGT — from ideation to working product under extreme time pressure.</p>
+        </div>
+        <div class="achievement-card" data-aos>
+          <div class="ach-icon">🎓</div>
+          <h3>4× Cisco Certified</h3>
+          <p>Completed CCNA, Cybersecurity Essentials, IoT Fundamentals, and Python Programming through Cisco Networking Academy.</p>
+        </div>
+        <div class="achievement-card" data-aos>
+          <div class="ach-icon">💻</div>
+          <h3>60+ LeetCode Problems</h3>
+          <p>Consistently practising DSA — Arrays, Hash Tables, Trees, Binary Search, and Dynamic Programming in Python and C++.</p>
+        </div>
+        <div class="achievement-card" data-aos>
+          <div class="ach-icon">🚁</div>
+          <h3>Drone Engineering Project</h3>
+          <p>Designed and built an autonomous drone system for infrastructure monitoring using Raspberry Pi, Pixhawk, and OpenCV.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <p class="section-eyebrow">// 06 — Contact</p>
+      <h2 class="section-title">Let's Connect</h2>
+      <p class="contact-sub">Open for internship opportunities, collaborations, and conversations about networking and Python automation.</p>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <a href="mailto:eshwarkadari78@gmail.com" class="contact-item">
+            <span class="contact-icon">✉</span>
+            <span>eshwarkadari78@gmail.com</span>
+          </a>
+          <a href="https://linkedin.com/in/eshwar-kadari-134aa4278" target="_blank" rel="noopener" class="contact-item">
+            <span class="contact-icon">in</span>
+            <span>linkedin.com/in/eshwar-kadari-134aa4278</span>
+          </a>
+          <a href="https://github.com/Eshwarkadari" target="_blank" rel="noopener" class="contact-item">
+            <span class="contact-icon">gh</span>
+            <span>github.com/Eshwarkadari</span>
+          </a>
+          <a href="https://leetcode.com/Eshwarkadari" target="_blank" rel="noopener" class="contact-item">
+            <span class="contact-icon">lc</span>
+            <span>leetcode.com/Eshwarkadari</span>
+          </a>
+          <div class="resume-download">
+            <a href="https://github.com/Eshwarkadari" target="_blank" rel="noopener" class="btn btn-primary btn-full">
+              ⬇ Download Resume
+            </a>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your name" autocomplete="name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="your@email.com" autocomplete="email" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Tell me about the opportunity..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message →</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="container footer-inner">
+      <p class="footer-logo">&lt;EK /&gt;</p>
+      <p class="footer-copy">© 2026 Eshwar Kadari. Built with HTML, CSS & JavaScript.</p>
+      <div class="footer-links">
+        <a href="https://github.com/Eshwarkadari" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/eshwar-kadari-134aa4278" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://leetcode.com/Eshwarkadari" target="_blank" rel="noopener">LeetCode</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
