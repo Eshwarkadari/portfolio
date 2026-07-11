@@ -70,7 +70,7 @@ navLinks.querySelectorAll('a').forEach(a => {
         const dist = Math.hypot(b.x - a.x, b.y - a.y);
         if (dist > 200) continue;
         const alpha = (1 - dist / 200) * 0.25;
-        ctx.strokeStyle = `rgba(0, 180, 216, ${alpha})`;
+        ctx.strokeStyle = `rgba(79, 70, 229, ${alpha})`;
         ctx.lineWidth   = 0.8;
         ctx.beginPath();
         ctx.moveTo(a.x, a.y);
