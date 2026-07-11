@@ -4,18 +4,18 @@
    ============================ */
 
 :root {
-  --bg-primary:    #050A13;
-  --bg-secondary:  #0A1628;
-  --bg-card:       rgba(13, 30, 54, 0.85);
-  --bg-card-solid: #0D1E36;
-  --accent-blue:   #00B4D8;
-  --accent-green:  #00E676;
-  --accent-glow:   rgba(0, 180, 216, 0.15);
-  --text-primary:  #E0F2FE;
-  --text-secondary:#7BAFC4;
-  --text-muted:    #3A6B85;
-  --border:        rgba(0, 180, 216, 0.15);
-  --border-hover:  rgba(0, 180, 216, 0.45);
+  --bg-primary:    #ffffff;
+  --bg-secondary:  #f8fafc;
+  --bg-card:       rgba(255, 255, 255, 0.95);
+  --bg-card-solid: #ffffff;
+  --accent-blue:   #4F46E5;
+  --accent-green:  #06B6D4;
+  --accent-glow:   rgba(79, 70, 229, 0.10);
+  --text-primary:  #1e293b;
+  --text-secondary:#475569;
+  --text-muted:    #94a3b8;
+  --border:        rgba(79, 70, 229, 0.15);
+  --border-hover:  rgba(79, 70, 229, 0.40);
   --font-mono:     'JetBrains Mono', monospace;
   --font-sans:     'Inter', sans-serif;
   --radius:        12px;
@@ -192,7 +192,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   font-weight: 700;
   line-height: 1.05;
   letter-spacing: -0.02em;
-  background: linear-gradient(135deg, #E0F2FE 0%, #00B4D8 50%, #00E676 100%);
+  background: linear-gradient(135deg, #E0F2FE 0%, #4F46E5 50%, #06B6D4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
